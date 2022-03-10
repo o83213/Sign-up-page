@@ -1,0 +1,22 @@
+.grid {
+  width: 100%;
+  height: 40px;
+  margin: 2.5% 0;
+  border: 0.1rem solid black;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.input1 {
+  width: 45%;
+  height: 100%;
+  background: #f1f5ff;
+  border-radius: 5px;
+}
+.input {
+  height: 100%;
+  width: 100%;
+  background: #f1f5ff;
+  border-radius: 5px;
+}

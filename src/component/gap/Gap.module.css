@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+}
+.content {
+  font-family: 'Interstate';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  /* text-align: center; */
+  margin-right: 20px;
+  width: 55%;
+}
+.line {
+  border: 1px solid #000000;
+  width: 45%;
+  height: 0px;
+}
+/* Or use your email for registration */
+
+/* Line 37 */

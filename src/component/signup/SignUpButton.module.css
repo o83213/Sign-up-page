@@ -1,0 +1,17 @@
+/* Rectangle 45 */
+
+.btn {
+  background: #ffffff;
+  /* opacity: 0.5; */
+  border: 1px solid #3c70ff88;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+/* position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%; */

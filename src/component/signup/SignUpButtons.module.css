@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  border: 0.1rem solid black;
+  justify-content: space-between;
+}
+
+.icon {
+  color: #3c71ff;
+}

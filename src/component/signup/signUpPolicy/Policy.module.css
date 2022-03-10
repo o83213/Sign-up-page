@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.iconContainer {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  width: 18px;
+  height: 18px;
+  background: #ababab;
+  border-radius: 5px;
+}
+.content {
+  width: 90%;
+}
+p {
+  font-family: 'Interstate';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #757575;
+}
+/* icon / tickbox */
