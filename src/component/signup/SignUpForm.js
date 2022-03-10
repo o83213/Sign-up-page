@@ -11,7 +11,7 @@ const SignUpForm = (props) => {
         <Policy />
       </div>
       <div className={classes['submmit-button']}>
-        <button>Create an Free Account!</button>
+        <button>Create a Free Account!</button>
       </div>
       <div className={classes.others}>
         <p>Already have an account?</p>
