@@ -1,12 +1,12 @@
 .btn {
   background: #ffffff;
-  /* border: 1px solid #3c70ff88; */
   box-sizing: border-box;
   border-radius: 5px;
   display: flex;
   align-items: center;
   width: 45%;
   justify-content: center;
+  border: 0.1px solid #3c71ff;
 }
 .btn:hover {
   background-color: #3c71ff;
@@ -24,4 +24,6 @@
 
 .btn p {
   margin-left: 10px;
+  font-weight: bold;
+  color: black;
 }

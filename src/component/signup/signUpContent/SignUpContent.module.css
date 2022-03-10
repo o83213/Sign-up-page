@@ -1,6 +1,6 @@
 .grid {
   width: 100%;
-  height: 40px;
+  height: 50px;
   margin: 2.5% 0;
   /* border: 0.1rem solid black; */
 }
@@ -12,13 +12,19 @@
   width: 45%;
   height: 100%;
   background: #f1f5ff;
+  padding-inline-start: 10px;
   border-radius: 5px;
+  font-size: 12px;
+  border: none;
 }
 .input {
   height: 100%;
-  width: 98%;
+  width: 97.5%;
   background: #f1f5ff;
   border-radius: 5px;
+  padding-inline-start: 10px;
+  font-size: 12px;
+  border: none;
 }
 .icon {
   position: relative;

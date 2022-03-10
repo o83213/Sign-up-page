@@ -7,16 +7,17 @@
   font-family: 'Interstate';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 17px;
   color: #000000;
   /* text-align: center; */
-  margin-right: 20px;
-  width: 55%;
+  margin-right: 5px;
+  width: 50%;
+  /* border: 0.1rem solid black; */
 }
 .line {
-  border: 1px solid #000000;
-  width: 45%;
+  border-bottom: 1.5px solid #000000;
+  width: 50%;
   height: 0px;
 }
 /* Or use your email for registration */

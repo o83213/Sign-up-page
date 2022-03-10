@@ -5,23 +5,19 @@
 .content {
   width: 100%;
   height: 50%;
-  /* border: 0.1rem solid black; */
 }
 .policy {
   width: 100%;
   height: 20%;
-  /* border: 0.1rem solid black; */
 }
 .submmit-button {
   width: 100%;
   height: 20%;
-  /* border: 0.1rem solid black; */
 }
-.submmit-button:hover {
-  box-shadow: 0px 3px 5px 3px rgb(0, 0, 0, 0.2);
-}
+
 .submmit-button button {
   background: #3c71ff;
+  border: none;
   border-radius: 5px;
   width: 100%;
   height: 100%;
@@ -32,11 +28,12 @@
   line-height: 17px;
   color: #ffffff;
 }
-
+.submmit-button button:hover {
+  box-shadow: 0px 3px 5px 5px rgb(0, 0, 0, 0.2);
+}
 .others {
   width: 100%;
   height: 10%;
-  /* border: 0.1rem solid black; */
   display: flex;
   align-items: center;
   justify-content: center;
