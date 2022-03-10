@@ -1,5 +1,11 @@
 import classes from './SignUpContent.module.css'
+import { BsEye, BsEyeSlash } from 'react-icons/bs'
+import { useState } from 'react'
 const SignUpContent = (props) => {
+  const [passwordVisibility, setPasswordVisibility] = useState(false)
+  const toggleVisibilityHandler = () => {
+    setPasswordVisibility((prev) => !prev)
+  }
   return (
     <div>
       <div className={`${classes.grid} ${classes.flex}`}>
@@ -15,10 +21,13 @@ const SignUpContent = (props) => {
       </div>
       <div className={classes.grid}>
         <input
-          type="password"
+          type={`${passwordVisibility ? 'text' : 'password'}`}
           placeholder="Password"
           className={classes.input}
         />
+        <i className={classes.icon} onClick={toggleVisibilityHandler}>
+          {passwordVisibility ? <BsEyeSlash /> : <BsEye />}
+        </i>
       </div>
     </div>
   )

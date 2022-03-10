@@ -2,7 +2,7 @@
   width: 100%;
   height: 40px;
   margin: 2.5% 0;
-  border: 0.1rem solid black;
+  /* border: 0.1rem solid black; */
 }
 .flex {
   display: flex;
@@ -16,7 +16,15 @@
 }
 .input {
   height: 100%;
-  width: 100%;
+  width: 98%;
   background: #f1f5ff;
   border-radius: 5px;
+}
+.icon {
+  position: relative;
+  /* border: 0.1rem solid black; */
+  color: #ababab;
+  top: 5px;
+  margin-left: -30px;
+  cursor: pointer;
 }

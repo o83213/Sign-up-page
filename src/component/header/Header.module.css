@@ -6,7 +6,7 @@ h3 {
   line-height: 22px;
   color: #000000;
   margin: 5px;
-  border: 0.1rem solid black;
+  /* border: 0.1rem solid black; */
 }
 h1 {
   font-family: 'Interstate';
@@ -16,5 +16,5 @@ h1 {
   line-height: 36px;
   color: #000000;
   margin: 10px 5px;
-  border: 0.1rem solid black;
+  /* border: 0.1rem solid black; */
 }
