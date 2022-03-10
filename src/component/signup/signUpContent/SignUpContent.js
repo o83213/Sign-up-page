@@ -14,8 +14,6 @@ const SignUpContent = (props) => {
     const value = event.target.value
     const firstValidaty = value.length >= 8
     const secondValidaty = /[a-zA-Z]/.test(value)
-    console.log(firstValidaty)
-    console.log(secondValidaty)
     setFirstCheck(firstValidaty)
     setSecondCheck(secondValidaty)
     setIsValid(firstValidaty && firstValidaty)
